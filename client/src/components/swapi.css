@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: grey;
+    width: 40%;
+    margin: 20px 0;
+    border-radius: 3px;
+    font-family: 'Slabo 27px', serif;
+  }
+  
+  .cardHeader {
+    font-size: 22px;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .cardBody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  
+  .cardRow {
+    padding: 5px;
+    text-align: left;
+  }
