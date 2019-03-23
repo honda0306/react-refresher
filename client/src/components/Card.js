@@ -16,13 +16,13 @@ const Card = props => {
                 {name}
             </h1>
             <div className='cardBody'>
-                <p>Birthdate: {birth_year}</p>
-                <p>Gender: {gender}</p>
-                <div className='cardRow'>
+                {/* <div className='cardRow'> */}
+                    <p>Birthdate: {birth_year}</p>
+                    <p>Gender: {gender}</p>
                     <p>Height: {height}</p>
                     <p>Hair Color: {hair_color}</p>
                     <p>Eye Color: {eye_color}</p>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     );
